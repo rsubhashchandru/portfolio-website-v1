@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root{
+    --basr-color: #ffffff;
+    --text-color:#000000;
+    --primary-color:#ffco6e;
+    --secoundary-color:#8D8DFF;
+    --color1:#F9f6F3;
+    --color1:#F3f7F9;
+    --color1:#F6F3F9;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+    font-famliy: poppins, 'sogoe UI', Tahoma, ,Gevena, sans-serif;
+    color:var(--text-color);
+}
