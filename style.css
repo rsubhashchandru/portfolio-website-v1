@@ -110,9 +110,60 @@ h1{
 .cta-button{
     display: inline-block;
     padding: 10px 20px;
-    background: rgb(19, 55, 232);
+    background: rgb(223, 231, 83);
     color: white;
     text-decoration: none;
     border-radius: .5em;
     font-weight: 600;
+}
+
+.secondary{
+    background-color: var(--secoundary-color);
+
+
+}
+section{
+    padding:3em min(2em, 15%);
+}
+
+section p{
+    margin-top: 1em;
+    font-size: 1.25rem;
+    width: 300px;
+    margin-top: 25px;
+    border-radius: 12px;
+}
+
+
+.help{
+    display:flex;
+    justify-content:center;
+    padding:80px 20px;
+}
+h2{
+
+    max-width:700px;
+    background:white;
+
+    padding:50px;
+    text-align:center;
+
+    border-radius:16px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+}
+
+h2{
+    font-size:2rem;
+    margin-bottom:15px;
+}
+
+p{
+ color:#555;
+line-height:1.6;
+margin-bottom:25px;
+}
+
+section p{
+    width:280px;
 }
