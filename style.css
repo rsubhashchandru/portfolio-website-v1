@@ -119,51 +119,35 @@ h1{
 
 .secondary{
     background-color: var(--secoundary-color);
-
-
-}
-section{
-    padding:3em min(2em, 15%);
 }
 
 section p{
-    margin-top: 1em;
-    font-size: 1.25rem;
-    width: 300px;
-    margin-top: 25px;
+    font-size: 1.2rem;
+    max-width: 450px;
+    margin: 25px auto;
+    text-align: center;
+    line-height: 1.6;
+    color: #444;
+
+     background-color: #f5f7fa;  /* light background */
+    padding: 20px;              /* space inside */
     border-radius: 12px;
 }
 
-
-.help{
-    display:flex;
-    justify-content:center;
-    padding:80px 20px;
-}
-h2{
-
-    max-width:700px;
-    background:white;
-
-    padding:50px;
-    text-align:center;
-
-    border-radius:16px;
-
-    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+section{
+    background: #f8fafc;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 16px;
 }
 
-h2{
-    font-size:2rem;
-    margin-bottom:15px;
-}
-
-p{
- color:#555;
-line-height:1.6;
-margin-bottom:25px;
+section h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
 section p{
-    width:280px;
+    max-width: 500px;
+    margin: auto;
+    line-height: 1.6;
 }
